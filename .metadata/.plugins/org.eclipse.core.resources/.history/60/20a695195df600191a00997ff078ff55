@@ -1,0 +1,15 @@
+package com.subhadeepbis.service;
+
+import org.springframework.stereotype.Service;
+
+import com.subhadeepbis.configuration.Configuration;
+
+@Service
+public class BankAccountService {
+
+		private Configuration config;
+	
+		public BankAccountService(Configuration config) {
+			this.config = config;
+		}
+}

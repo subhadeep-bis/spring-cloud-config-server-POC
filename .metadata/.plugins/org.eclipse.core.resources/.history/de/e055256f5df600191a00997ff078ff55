@@ -1,0 +1,14 @@
+package com.subhadeepbis.model;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Getter;
+
+@Component
+public class BankAccount {
+
+	@Getter
+	@Seter
+	private Double AccountBalance;
+	
+}
